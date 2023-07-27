@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="phone.css">
+    </head>
+    <body>
+        <div class="container">
+            <p style="text-align: center; font-weight: bolder">Phone Number Validator</p>
+            <div class="content">
+                <p>Enter a phone number to be verified</p>
+                <p style="font-size: 9px">NB: You have to write the country's dialling code in front of number for it to work, e.g. +2349044424.</p>
+                <input placeholder="Enter phone number"/>
+                <div class="button">
+                    <button id="verify">Verify Number</button>
+                </div>
+                <div>
+                    <p class="carrier"></p>
+                    <p class="country"></p>
+                    <p class="validity"></p>
+                </div>
+                
+            </div>
+        </div>
+        <script src="phone.js"></script>
+    </body>
+</html>
