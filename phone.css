@@ -44,4 +44,9 @@ button{
 button:hover{
     cursor: pointer;
 }
-
+label{
+    font-size: 10px;
+    font-weight: light;
+    word-spacing: 1px;
+    color: white;
+}
